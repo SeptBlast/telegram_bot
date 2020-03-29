@@ -37,15 +37,6 @@ def echo_all(updates):
         except Exception as e:
             print(e)
 
-# def main():
-#     last_textchat = (None, None)
-#     while True:
-#         text, chat = get_last_chat_id_and_text(get_updates())
-#         if (text, chat) != last_textchat:
-#             botUtils.send_message(URL, text, chat)
-#             last_textchat = (text, chat)
-#         time.sleep(0.5)
-
 def main():
     last_update_id = None
     while True:
